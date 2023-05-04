@@ -9,7 +9,8 @@ def extract_from_list_to_tuple(input_list: list) -> list:
         tuple_list.append((idx, input))
         idx += 1
 
-    return tuple_list    
+    # return tuple_list 
+    return list(enumerate(input_list))  
 
 tickers = [
     'AAPL.US', 'AXP.US', 'BA.US', 'CAT.US',
