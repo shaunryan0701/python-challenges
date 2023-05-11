@@ -1,0 +1,17 @@
+{
+  "python.testing.pytestArgs": [
+    "starter",
+    "print",
+    "calculation",
+    "slicing",
+    "data_types",
+    "sets",
+    "tuples",
+    "lists",
+    "dictionaries",
+    "if_flow"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.envFile": "/Users/shaun.ryan/Documents/GitHub/python-challenges/.env"
+}
