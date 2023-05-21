@@ -6,4 +6,4 @@ def read_file(file_name: str) -> None:
         lines = file.read().splitlines()
         print(lines)
 
-read_file('playway.txt')
+read_file("playway.txt")
