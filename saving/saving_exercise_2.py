@@ -1,8 +1,9 @@
 '''
 save text to jsom
 '''
+import json
 
 stocks = {'PLW': ['Playway', 350], 'BBT': ['Boombit', 22]}
 
 with open('stocks.json', 'w') as file:
-    file.write(str(stocks))
+    json.dump(stocks, file, indent=4)
