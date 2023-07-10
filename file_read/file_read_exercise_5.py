@@ -1,7 +1,7 @@
 '''
 find the day with the highest volume
 '''
-
+import os
 with open('playway.csv', 'r') as file:
     content = file.read().splitlines()
 
@@ -12,3 +12,4 @@ max_date = list(filter(lambda val: val[1] == max_volume, volumes))[0][0]
 # print(max_volume)
 print(max_date)
 # print(volumes)
+print(os.listdir())
